@@ -19,7 +19,9 @@
         <activity android:name=".menu" />
         <activity android:name=".bebidas" />
         <activity android:name=".saladas" />
-        <activity android:name=".sobremesas" />
+        <activity android:name=".sobremesas"
+            android:label="Sobremesas">
+        </activity>
         <activity android:name=".pratoPrincipal"></activity>
     </application>
 
