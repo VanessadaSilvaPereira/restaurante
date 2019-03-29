@@ -16,6 +16,11 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".menu" />
+        <activity android:name=".bebidas" />
+        <activity android:name=".saladas" />
+        <activity android:name=".sobremesas" />
+        <activity android:name=".pratoPrincipal"></activity>
     </application>
 
 </manifest>
