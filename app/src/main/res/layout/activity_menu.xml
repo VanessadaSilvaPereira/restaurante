@@ -7,33 +7,45 @@
     android:layout_height="match_parent"
     tools:context=".menu"
     android:orientation="vertical"
-    >
+    android:layout_gravity="center">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Bebidas"
         android:id="@+id/btnBebidas"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:backgroundTint="@android:color/holo_orange_light"/>
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Saladas"
         android:id="@+id/btnSaladas"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Prato Principal"
         android:id="@+id/btnPratoPrincipal"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:backgroundTint="@android:color/holo_orange_light"/>
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Sobremesas"
         android:id="@+id/btnSobremesas"
-        android:layout_margin="10dp"/>
+        android:layout_margin="10dp"
+        android:textSize="20dp"
+        android:padding="15dp"
+        android:backgroundTint="@android:color/holo_orange_dark"/>
 
 </LinearLayout>
