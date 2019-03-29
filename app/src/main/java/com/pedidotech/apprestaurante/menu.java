@@ -38,7 +38,7 @@ public class menu extends AppCompatActivity {
 
         botaoPratoPrincipal = (Button) findViewById(R.id.btnPratoPrincipal);
 
-        botaoBebidas.setOnClickListener(new View.OnClickListener() {
+        botaoPratoPrincipal.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
                 Intent it = new Intent(menu.this, pratoPrincipal.class);
                 startActivity(it);

@@ -4,13 +4,19 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+
+    >
 
     <Button
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
         android:textAlignment="center"
         android:text="Faça seu pedido"
-        android:id="@+id/btnTelaPrincipal"/>
+        android:id="@+id/btnTelaPrincipal"
+        android:backgroundTint="@android:color/transparent"
+        android:textSize="20dp"
+        android:shadowRadius="@android:integer/config_shortAnimTime"
+        />
 
 </LinearLayout>
