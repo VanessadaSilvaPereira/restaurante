@@ -5,18 +5,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-
-    >
+    android:background="@drawable/salada2">
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:textAlignment="center"
-        android:text="Faça seu pedido"
+        android:text="@string/facaSeuPedido"
         android:id="@+id/btnTelaPrincipal"
         android:backgroundTint="@android:color/transparent"
-        android:textSize="20dp"
+        android:textSize="100dp"
+        android:textAllCaps="false"
+        android:textColor="#fff"
         android:shadowRadius="@android:integer/config_shortAnimTime"
+        android:fontFamily="cursive"
         />
 
 </LinearLayout>

@@ -9,27 +9,33 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/tema">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MainActivity"
+            android:label="Restaurante">
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".menu"
-            android:label="Menu">
-        </activity>
-        <activity android:name=".bebidas"
-            android:label="Bebidas">
-        </activity>
-        <activity android:name=".saladas"
-            android:label="Saladas">
-        </activity>
-        <activity android:name=".sobremesas"
-            android:label="Sobremesas">
-        </activity>
-        <activity android:name=".pratoPrincipal"
-            android:label="Prato Principal">
+        <activity
+            android:name=".menu"
+            android:label="@string/menu"></activity>
+        <activity
+            android:name=".bebidas"
+            android:label="@string/bebidas"></activity>
+        <activity
+            android:name=".saladas"
+            android:label="@string/saladas"></activity>
+        <activity
+            android:name=".sobremesas"
+            android:label="@string/sobremesas"></activity>
+        <activity
+            android:name=".pratoPrincipal"
+            android:label="@string/pratoPrincipal"></activity>
+
+        <activity android:name=".MeuPedidoActivity"
+            android:label="@string/meuPedido">
 
         </activity>
     </application>
