@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.EditText;
 
 public class menu extends AppCompatActivity {
     private Button botaoBebidas;
@@ -66,15 +67,29 @@ public class menu extends AppCompatActivity {
             public void onClick(View v) {
 
                 final AlertDialog.Builder alertDialogBuilder = new AlertDialog.Builder(menu.this);
-                alertDialogBuilder.setTitle("Alerta!");
-                alertDialogBuilder.setMessage("www.frameworksystem.com");
+                alertDialogBuilder.setTitle("Digite a senha de Administrador");
+
+                final EditText input = new EditText(menu.this);
+                alertDialogBuilder.setView(input);
+
+
+
                 alertDialogBuilder.setPositiveButton("OK", new DialogInterface.OnClickListener() {
+
+
+
+
                     @Override
                     public void onClick(DialogInterface dialog, int which) {
 
+
+
                         Intent it = new Intent(menu.this, config.class);
+
                         startActivity(it);
                     }
+
+
                 });
 
 

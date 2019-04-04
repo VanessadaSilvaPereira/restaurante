@@ -17,7 +17,7 @@
 
 </ListView>
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/enviar2"
         android:textAllCaps="false"
@@ -25,7 +25,7 @@
         android:textSize="30dp"
         />
     <Button
-        android:layout_width="match_parent"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/cancelar"
         android:textAllCaps="false"
@@ -35,6 +35,4 @@
 
 
 </LinearLayout>
-
-
 </android.support.constraint.ConstraintLayout>
