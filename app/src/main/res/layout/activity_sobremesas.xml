@@ -18,6 +18,8 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="@string/meuPedido"
-        android:id="@+id/btnMeuPedido"/>
+        android:id="@+id/btnMeuPedido"
+        android:fontFamily="serif"
+        android:textSize="30dp"/>
 
 </LinearLayout>
