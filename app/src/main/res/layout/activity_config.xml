@@ -62,5 +62,8 @@
         android:textSize="30dp"
         android:fontFamily="serif"
         android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_marginRight="5pt"
+        android:backgroundTint="#111"
         />
 </LinearLayout>
