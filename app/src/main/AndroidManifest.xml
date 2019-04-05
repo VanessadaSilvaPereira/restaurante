@@ -9,9 +9,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/tema">
-        <activity android:name=".MainActivity"
+        <activity
+            android:name=".MainActivity"
             android:label="Restaurante">
-
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -23,21 +23,22 @@
             android:label="@string/menu"></activity>
         <activity
             android:name=".bebidas"
-            android:label="@string/bebidas"></activity>
+            android:label="@string/bebidas" />
         <activity
             android:name=".saladas"
-            android:label="@string/saladas"></activity>
+            android:label="@string/saladas" />
         <activity
             android:name=".sobremesas"
-            android:label="@string/sobremesas"></activity>
+            android:label="@string/sobremesas" />
         <activity
             android:name=".pratoPrincipal"
-            android:label="@string/pratoPrincipal"></activity>
+            android:label="@string/pratoPrincipal" />
+        <activity
+            android:name=".MeuPedidoActivity"
+            android:label="@string/meuPedido"></activity>
 
-        <activity android:name=".MeuPedidoActivity"
-            android:label="@string/meuPedido">
-
-        </activity>
+        <activity android:name=".config"
+            android:label="@string/Configuracoes"></activity>
     </application>
 
 </manifest>

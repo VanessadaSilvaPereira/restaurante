@@ -14,11 +14,12 @@
         android:text="@string/facaSeuPedido"
         android:id="@+id/btnTelaPrincipal"
         android:backgroundTint="@android:color/transparent"
-        android:textSize="100dp"
+        android:textSize="150dp"
         android:textAllCaps="false"
         android:textColor="#fff"
         android:shadowRadius="@android:integer/config_shortAnimTime"
         android:fontFamily="cursive"
+        android:textStyle="bold"
         />
 
 </LinearLayout>
