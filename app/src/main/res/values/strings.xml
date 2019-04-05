@@ -15,7 +15,6 @@
     <string name="Configuracoes">Configurações</string>
 
 
-
     <string-array name="spinnerMesa">
         <item>Selecione</item>
         <item>01</item>
