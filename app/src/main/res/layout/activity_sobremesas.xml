@@ -7,12 +7,9 @@
     tools:context=".sobremesas"
     android:orientation="vertical"
     android:background="@drawable/madeira">
-
-
     <ListView
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
-
     </ListView>
     <Button
         android:layout_width="wrap_content"
@@ -21,6 +18,9 @@
         android:id="@+id/btnMeuPedido"
         android:fontFamily="serif"
         android:textSize="30dp"
-        android:layout_gravity="end"/>
-
+        android:layout_gravity="end"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_marginRight="5pt"
+        android:backgroundTint="#111"/>
 </LinearLayout>
