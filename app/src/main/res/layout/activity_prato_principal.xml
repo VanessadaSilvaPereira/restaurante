@@ -20,6 +20,10 @@
         android:id="@+id/btnMeuPedido"
         android:fontFamily="serif"
         android:textSize="30dp"
-        android:layout_gravity="end"/>
+        android:layout_gravity="end"
+        android:backgroundTint="#000"
+        android:textAllCaps="false"
+        android:textColor="#fff"
+        android:layout_marginRight="5pt"/>
 
 </LinearLayout>

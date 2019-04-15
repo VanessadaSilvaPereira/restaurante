@@ -20,7 +20,7 @@
         </activity>
         <activity
             android:name=".menu"
-            android:label="@string/menu"></activity>
+            android:label="@string/menu" />
         <activity
             android:name=".bebidas"
             android:label="@string/bebidas" />
@@ -35,10 +35,11 @@
             android:label="@string/pratoPrincipal" />
         <activity
             android:name=".MeuPedidoActivity"
-            android:label="@string/meuPedido"></activity>
-
-        <activity android:name=".config"
-            android:label="@string/Configuracoes"></activity>
+            android:label="@string/meuPedido" />
+        <activity
+            android:name=".config"
+            android:label="@string/Configuracoes" />
+        <activity android:name=".CadastroProduto"></activity>
     </application>
 
 </manifest>
