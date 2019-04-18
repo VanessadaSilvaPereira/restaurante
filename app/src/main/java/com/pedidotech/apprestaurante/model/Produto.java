@@ -2,10 +2,10 @@ package com.pedidotech.apprestaurante.model;
 
 public class Produto {
     private int id;
-    private String foto;
     private String nome;
     private Float preco;
     private String descrição;
+    private String foto;
     private String ingredientes;
     private String categoria;
 

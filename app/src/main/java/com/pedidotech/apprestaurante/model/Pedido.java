@@ -1,21 +1,20 @@
 package com.pedidotech.apprestaurante.model;
 
 import java.sql.Time;
+import java.time.DateTimeException;
 import java.util.Date;
 
 public class Pedido {
     private int id;
-    private String mesa;
-    private Date data;
     private Time hora;
-    private Produto produto;
+    private String mesa;
+    private int Status;
 
-    public Pedido(int id, String mesa, Date data, Time hora, Produto produto) {
+    public Pedido(int id, Time hora, String mesa, int status) {
         this.id = id;
-        this.mesa = mesa;
-        this.data = data;
         this.hora = hora;
-        this.produto = produto;
+        this.mesa = mesa;
+        Status = status;
     }
 
     public int getId() {
@@ -26,22 +25,6 @@ public class Pedido {
         this.id = id;
     }
 
-    public String getMesa() {
-        return mesa;
-    }
-
-    public void setMesa(String mesa) {
-        this.mesa = mesa;
-    }
-
-    public Date getData() {
-        return data;
-    }
-
-    public void setData(Date data) {
-        this.data = data;
-    }
-
     public Time getHora() {
         return hora;
     }
@@ -50,11 +33,19 @@ public class Pedido {
         this.hora = hora;
     }
 
-    public Produto getProduto() {
-        return produto;
+    public String getMesa() {
+        return mesa;
     }
 
-    public void setProduto(Produto produto) {
-        this.produto = produto;
+    public void setMesa(String mesa) {
+        this.mesa = mesa;
+    }
+
+    public int getStatus() {
+        return Status;
+    }
+
+    public void setStatus(int status) {
+        Status = status;
     }
 }
