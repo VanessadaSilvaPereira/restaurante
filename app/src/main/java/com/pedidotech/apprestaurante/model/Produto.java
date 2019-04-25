@@ -2,14 +2,15 @@ package com.pedidotech.apprestaurante.model;
 
 public class Produto {
     private int id;
-    private String foto;
     private String nome;
     private Float preco;
     private String descrição;
-    private String ingredientes;
-    private String categoria;
+    private String foto;
+    //rever se ingrediente e categorias sao int ou String;
+    private int ingredientes;
+    private int categoria;
 
-    public Produto(int id, String foto, String nome, Float preco, String descrição, String ingredientes, String categoria) {
+    public Produto(int id, String foto, String nome, Float preco, String descrição, int ingredientes, int categoria) {
         this.id = id;
         this.foto = foto;
         this.nome = nome;
@@ -59,19 +60,19 @@ public class Produto {
         this.descrição = descrição;
     }
 
-    public String getIngredientes() {
+    public int getIngredientes() {
         return ingredientes;
     }
 
-    public void setIngredientes(String ingredientes) {
+    public void setIngredientes(int ingredientes) {
         this.ingredientes = ingredientes;
     }
 
-    public String getCategoria() {
+    public int getCategoria() {
         return categoria;
     }
 
-    public void setCategoria(String categoria) {
+    public void setCategoria(int categoria) {
         this.categoria = categoria;
     }
 }

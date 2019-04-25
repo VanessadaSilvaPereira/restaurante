@@ -16,6 +16,21 @@
 
 
 </ListView>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:fontFamily="serif" />
+        <!--android:text="@string/observacoes"-->
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Digite aqui sua observação "
+        android:textColorHint="#000"
+        android:fontFamily="serif"/>
+
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -38,7 +53,5 @@
         android:layout_marginLeft="5pt"
         android:backgroundTint="#111"
         />
-
-
 </LinearLayout>
 </android.support.constraint.ConstraintLayout>

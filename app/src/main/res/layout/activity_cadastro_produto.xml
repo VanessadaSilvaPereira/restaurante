@@ -22,6 +22,17 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:text="Foto do produto:"
+        android:textSize="30dp"
+        android:textColor="#000"
+        android:fontFamily="serif"/>
+    <ImageView
+        android:layout_width="350px"
+        android:layout_height="350px"
+        />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
         android:text="Descrição do produto:"
         android:textSize="30dp"
         android:textColor="#000"
