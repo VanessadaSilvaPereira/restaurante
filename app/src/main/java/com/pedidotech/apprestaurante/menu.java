@@ -1,16 +1,14 @@
 package com.pedidotech.apprestaurante;
 
+import android.app.Dialog;
 import android.app.ProgressDialog;
-import android.content.DialogInterface;
-import android.content.Intent;
-import android.support.v7.app.AlertDialog;
+import android.os.AsyncTask;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
-import android.view.View;
-import android.widget.Button;
-import android.widget.EditText;
 import android.widget.ListView;
-import android.widget.Toolbar;
+
+
+import java.util.List;
 
 public class menu extends AppCompatActivity {
 //    private Button botaoBebidas;
@@ -26,6 +24,33 @@ public class menu extends AppCompatActivity {
         setContentView(R.layout.activity_menu);
 
         lvCategorias = (ListView) findViewById(R.id.listaCategorias);
+
+        public void carregarPessoas(List <menu> lvCategorias){
+            AdapterCategorias = new AdapterCategorias(this, lvCategorias);
+            lvCategorias.setAdapter(adapter);
+        }
+
+        class GetJSON extends AsyncTask<Void, Void, List<menu> > {
+            @Override
+            public void onPreExecute() {
+                load = ProgressDialog.show(menu.this,
+                        "Por favor aguarde",
+                        "Carregando as categorias do servidor...");
+            }
+
+            @Override
+            protected List<menu> doInBackground(Void... voids) {
+                return consultaCategoria.getPessoas();
+            }
+
+            @Override
+            protected void onPostExecute(List<menu> categorias) {
+                carregarCategorias(categorias);
+
+                load.dismiss();
+            }
+        }
+
 
 //        AdapterCategorias adapter = new AdapterCategorias(this, lista);
 //        lvCategorias.setAdapter(adapter);

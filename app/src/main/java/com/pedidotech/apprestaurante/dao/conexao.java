@@ -11,7 +11,38 @@ import java.net.URL;
 
 public class conexao {
 
+<<<<<<< HEAD
     }
+=======
+
+//    URL url = new URL("http://pokeapi.co/api/v2/pokemon/1/");
+//    HttpURLConnection urlConnection = (HttpURLConnection) url.openConnection();
+//urlConnection.setRequestMethod("GET");
+//urlConnection.connect();
+//    InputStream inputStream = urlConnection.getInputStream();
+//if (inputStream == null) {
+//        return null;
+//    }
+//    BufferedReader reader = new BufferedReader(new InputStreamReader(inputStream));
+//    String linha;
+//    StringBuffer buffer = new StringBuffer();
+//while ((linha = reader.readLine()) != null) {
+//        buffer.append(linha + "\n");
+//    }
+//if (buffer.length() == 0) {
+//        return null;
+//    }
+//if (urlConnection != null) {
+//        urlConnection.disconnect();
+//    }
+//if (reader != null) {
+//        try {
+//            reader.close();
+//        } catch (final IOException e) {
+//            Log.e("Erro", "Erro fechando o stream", e);
+//        }
+//    }
+>>>>>>> 56b20fafc4b01938ce5a832fb1a6fae0f18c89a9
 
 
 
