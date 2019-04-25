@@ -18,7 +18,8 @@
         android:layout_height="wrap_content"
         android:hint="Insira o nome do produto"
         android:textColorHint="#000"
-        android:fontFamily="serif"/>
+        android:fontFamily="serif"
+        android:id="@+id/NomeProduto"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -29,7 +30,7 @@
     <ImageView
         android:layout_width="350px"
         android:layout_height="350px"
-        />
+        android:id="@+id/ImagemProduto"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -43,7 +44,8 @@
         android:layout_height="wrap_content"
         android:hint="Insira a descrição do produto"
         android:textColorHint="#000"
-        android:fontFamily="serif"/>
+        android:fontFamily="serif"
+        android:id="@+id/DescricaoProduto"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -58,7 +60,8 @@
         android:layout_height="wrap_content"
         android:hint="Insira os ingredientes do produto"
         android:textColorHint="#000"
-        android:fontFamily="serif"/>/>
+        android:fontFamily="serif"
+        android:id="@+id/IngredientesProduto"/>
 
     <TextView
         android:layout_width="match_parent"
@@ -73,7 +76,8 @@
         android:layout_height="wrap_content"
         android:hint="Insira o valor do produto"
         android:textColorHint="#000"
-        android:fontFamily="serif"/>/>
+        android:fontFamily="serif"
+        android:id="@+id/ValorProduto"/>
     <TextView
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -89,7 +93,9 @@
         android:padding="10dp"
         android:textAlignment="center"
         android:fontFamily="serif"
-        ></Spinner>
+        android:id="@+id/CategoriaProduto">
+
+    </Spinner>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -100,6 +106,7 @@
         android:textAllCaps="false"
         android:textColor="#fff"
         android:layout_marginRight="5pt"
-        android:backgroundTint="#111"/>
+        android:backgroundTint="#111"
+        android:id="@+id/btnSalvar"/>
 
 </LinearLayout>

@@ -29,7 +29,8 @@
         android:layout_height="wrap_content"
         android:hint="Digite aqui sua observação "
         android:textColorHint="#000"
-        android:fontFamily="serif"/>
+        android:fontFamily="serif"
+        android:id="@+id/Observação"/>
 
     <Button
         android:layout_width="wrap_content"
@@ -41,7 +42,7 @@
         android:textColor="#fff"
         android:layout_marginLeft="5pt"
         android:backgroundTint="#111"
-        />
+        android:id="@+id/btnEnviar"/>
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
@@ -52,6 +53,6 @@
         android:textColor="#fff"
         android:layout_marginLeft="5pt"
         android:backgroundTint="#111"
-        />
+        android:id="@+id/btnCancelar"/>
 </LinearLayout>
 </android.support.constraint.ConstraintLayout>
