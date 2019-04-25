@@ -9,62 +9,67 @@
     android:orientation="vertical"
     android:background="@drawable/madeira">
 
-
-    <Button
-        android:id="@+id/btnBebidas"
-        android:layout_width="match_parent"
+    <ListView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/transparent"
-        android:fontFamily="cursive"
-        android:text="@string/bebidas"
-        android:textAllCaps="false"
-        android:textColor="#000"
-        android:textSize="100dp"
-        android:textStyle="bold" />
+        android:id="@+id/ListaCategorias">
 
-    <Button
-        android:id="@+id/btnPratoPrincipal"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/transparent"
-        android:fontFamily="cursive"
-        android:text="@string/pratoPrincipal"
-        android:textAllCaps="false"
-        android:textColor="#000"
-        android:textSize="100dp"
-        android:textStyle="bold" />
+    </ListView>
+    <!--<Button-->
+        <!--android:id="@+id/btnBebidas"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:backgroundTint="@android:color/transparent"-->
+        <!--android:fontFamily="cursive"-->
+        <!--android:text="@string/bebidas"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="100dp"-->
+        <!--android:textStyle="bold" />-->
 
-    <Button
-        android:id="@+id/btnSaladas"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/transparent"
-        android:fontFamily="cursive"
-        android:text="@string/saladas"
-        android:textAllCaps="false"
-        android:textColor="#000"
-        android:textSize="100dp"
-        android:textStyle="bold" />
+    <!--<Button-->
+        <!--android:id="@+id/btnPratoPrincipal"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:backgroundTint="@android:color/transparent"-->
+        <!--android:fontFamily="cursive"-->
+        <!--android:text="@string/pratoPrincipal"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="100dp"-->
+        <!--android:textStyle="bold" />-->
 
-    <Button
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="@string/sobremesas"
-        android:id="@+id/btnSobremesas"
-        android:textSize="100dp"
-        android:textAllCaps="false"
-        android:textColor="#000"
-        android:backgroundTint="@android:color/transparent"
-        android:fontFamily="cursive"
-        android:textStyle="bold"/>
+    <!--<Button-->
+        <!--android:id="@+id/btnSaladas"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:backgroundTint="@android:color/transparent"-->
+        <!--android:fontFamily="cursive"-->
+        <!--android:text="@string/saladas"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#000"-->
+        <!--android:textSize="100dp"-->
+        <!--android:textStyle="bold" />-->
 
-    <Button
-        android:id="@+id/btnConfig"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:layout_marginRight="10pt"
-        android:background="@drawable/gear"
-        android:layout_gravity="bottom|end"/>
+    <!--<Button-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="@string/sobremesas"-->
+        <!--android:id="@+id/btnSobremesas"-->
+        <!--android:textSize="100dp"-->
+        <!--android:textAllCaps="false"-->
+        <!--android:textColor="#000"-->
+        <!--android:backgroundTint="@android:color/transparent"-->
+        <!--android:fontFamily="cursive"-->
+        <!--android:textStyle="bold"/>-->
+
+    <!--<Button-->
+        <!--android:id="@+id/btnConfig"-->
+        <!--android:layout_width="50dp"-->
+        <!--android:layout_height="50dp"-->
+        <!--android:layout_marginRight="10pt"-->
+        <!--android:background="@drawable/gear"-->
+        <!--android:layout_gravity="bottom|end"/>-->
 
 
 

@@ -5,6 +5,13 @@ import java.time.DateTimeException;
 import java.util.Date;
 
 public class Pedido {
+/*constantes para o status dos pedidos*/
+    public static final int REALIZADO = 1;
+    public static final int EM_PRODUCAO = 2;
+    public static final int PRONTO = 3;
+    public static final int ENTREGUE = 4;
+    public static final int PAGO = 5;
+
     private int id;
     private Time hora;
     private String mesa;
