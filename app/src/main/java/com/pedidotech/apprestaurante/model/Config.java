@@ -1,20 +1,20 @@
 package com.pedidotech.apprestaurante.model;
 
 public class Config {
-    private String mesa;
+    private String numeroMesa;
     private String senha;
 
-    public Config(String mesa, String senha) {
-        this.mesa = mesa;
+    public Config(String numeroMesa, String senha) {
+        this.numeroMesa = numeroMesa;
         this.senha = senha;
     }
 
-    public String getMesa() {
-        return mesa;
+    public String getNumeroMesa() {
+        return numeroMesa;
     }
 
-    public void setMesa(String mesa) {
-        this.mesa = mesa;
+    public void setNumeroMesa(String numeroMesa) {
+        this.numeroMesa = numeroMesa;
     }
 
     public String getSenha() {
