@@ -13,8 +13,8 @@
         android:text="Número da mesa: "
         android:textSize="30dp"
         android:textColor="#000"
-        android:fontFamily="serif"
-        />
+        android:fontFamily="serif"/>
+
     <Spinner
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,9 +24,7 @@
         android:layout_marginBottom="45dp"
         android:padding="10dp"
         android:textAlignment="center"
-        android:fontFamily="serif"
-        >
-
+        android:fontFamily="serif">
     </Spinner>
 
     <TextView
@@ -52,6 +50,7 @@
         android:textColorHint="#000"
         android:fontFamily="serif"
         android:id="@+id/senhaNova"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -67,6 +66,7 @@
         android:textSize="30dp"
         android:textColor="#000"
         android:fontFamily="serif"/>
+
     <EditText
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -99,7 +99,6 @@
         android:textAllCaps="false"
         android:textColor="#fff"
         android:backgroundTint="#111"
-        android:layout_marginRight="5pt"
+        android:layout_marginRight="5pt"/>
 
-        />
 </LinearLayout>

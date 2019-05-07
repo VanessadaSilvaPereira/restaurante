@@ -19,7 +19,6 @@
         android:textColor="#fff"
         android:shadowRadius="@android:integer/config_shortAnimTime"
         android:fontFamily="cursive"
-        android:textStyle="bold"
-        />
+        android:textStyle="bold"/>
 
 </LinearLayout>
