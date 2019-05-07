@@ -4,6 +4,9 @@ public class Config {
     private String numeroMesa;
     private String senha;
 
+    public Config() {
+    }
+
     public Config(String numeroMesa, String senha) {
         this.numeroMesa = numeroMesa;
         this.senha = senha;

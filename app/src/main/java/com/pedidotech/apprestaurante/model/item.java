@@ -7,6 +7,10 @@ public class item {
     private int codPedido;
     private int codProduto;
 
+    public item(){
+
+    }
+
     public item(int id, float quantidade, float preco, int codPedido, int codProduto) {
         this.id = id;
         this.quantidade = quantidade;

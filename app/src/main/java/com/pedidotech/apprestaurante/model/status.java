@@ -4,6 +4,9 @@ public class status {
     private int id;
     private String nome;
 
+    public status(){
+
+    }
     public status(int id, String nome) {
         this.id = id;
         this.nome = nome;

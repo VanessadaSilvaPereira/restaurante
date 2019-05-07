@@ -17,6 +17,10 @@ public class Pedido {
     private String mesa;
     private int Status;
 
+    public Pedido(){
+
+    }
+
     public Pedido(int id, Time hora, String mesa, int status) {
         this.id = id;
         this.hora = hora;

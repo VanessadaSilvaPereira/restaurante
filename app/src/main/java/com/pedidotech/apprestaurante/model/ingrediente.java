@@ -4,6 +4,9 @@ public class ingrediente{
     private int id;
     private String nome;
 
+    public ingrediente() {
+    }
+
     public ingrediente(int id, String nome) {
         this.id = id;
         this.nome = nome;

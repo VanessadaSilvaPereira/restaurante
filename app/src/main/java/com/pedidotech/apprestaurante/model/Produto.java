@@ -10,6 +10,10 @@ public class Produto {
     private int ingredientes;
     private int categoria;
 
+    public Produto(){
+
+    }
+
     public Produto(int id, String foto, String nome, Float preco, String descrição, int ingredientes, int categoria) {
         this.id = id;
         this.foto = foto;
