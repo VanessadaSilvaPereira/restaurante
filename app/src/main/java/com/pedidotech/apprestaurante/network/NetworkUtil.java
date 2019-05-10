@@ -69,10 +69,6 @@ public class NetworkUtil {
         return retorno;
     }
 
-
-
-
-
 }
 
 

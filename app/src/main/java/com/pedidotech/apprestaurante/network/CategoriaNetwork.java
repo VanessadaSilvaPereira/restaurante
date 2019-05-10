@@ -1,5 +1,7 @@
 package com.pedidotech.apprestaurante.network;
 
+import android.util.Log;
+
 import com.pedidotech.apprestaurante.model.Categoria;
 
 import org.json.JSONArray;
@@ -18,7 +20,6 @@ public class CategoriaNetwork {
         String json = NetworkUtil.getJSONFromAPI(url);
         try {
             JSONObject object = new JSONObject( json );
-
             JSONArray arrayCategorias = object.getJSONArray("categorias");
             if ( arrayCategorias.length() > 0 ){
 
@@ -27,6 +28,7 @@ public class CategoriaNetwork {
                     Categoria categoria = new Categoria();
                     categoria.setId( item.getInt("id"));
                     categoria.setNome( item.getString("nome"));
+                    Log.i("net", "nome: " + item.getString("nome") );
 
                     listaCategorias.add(categoria);
                 }
@@ -35,8 +37,7 @@ public class CategoriaNetwork {
             e.printStackTrace();
             return null;
         }
+        Log.i("net", "Teste 01: " + listaCategorias.size()  );
         return listaCategorias;
     }
-
-
 }
